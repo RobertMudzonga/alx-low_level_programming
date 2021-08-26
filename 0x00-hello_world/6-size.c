@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - prints the size of various types
- *Return - always 0 success if not zero otherwise
+ *main - Prints the size of various types
+ *Return: Always 0 success if not zero otherwise
  */
 
 int main(void)
