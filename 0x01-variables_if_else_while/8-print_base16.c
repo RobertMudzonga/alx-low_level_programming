@@ -21,5 +21,5 @@ for (ch = 'a'; ch < 'f'; ch++)
 putchar(ch);
 }
 putchar('\n');
-retunrn (0);
+return (0);
 }
