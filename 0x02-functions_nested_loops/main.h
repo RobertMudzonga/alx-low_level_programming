@@ -2,15 +2,27 @@
 #define MAIN_H
 
 /**
+ *putchar -writes the character c to stdout
+ *@c: THecharacter to print
  *
- *
+ *Return: 1 sucess
  */
 
 int _putchar(char c);
 
+/**
+ *print_alphabet - print lowercase alphabet
+ */
 void print_alphabet(void);
 
+/**
+ *print_alphabet_x10- print alphabet ten times
+ */
 void print_aplhabet_x10(void);
+
+/**
+ *print islower- checks lowercas
+ */
 
 int _islower(int c);
 
