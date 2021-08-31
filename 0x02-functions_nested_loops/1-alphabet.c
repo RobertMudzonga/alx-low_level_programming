@@ -5,7 +5,7 @@
  *Return: Always 0 sucess
  */
 
-void print_alphabet(void)
+int main(void)
 {
 char ch;
 
