@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *main - print holberton, followed by new line
+ *main - print holberton,
+ *followed by new line
+ *
  *Retun: Always 0 sucess
  */
 
