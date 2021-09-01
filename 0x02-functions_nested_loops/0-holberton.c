@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- *main - print holberton,
- *followed by new line
- *
- *Retun: Always 0 sucess
- */
+* main - Prints _putchar as a message using putchar.
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-char *c = "Holberton";
+
+char *c = "_putchar";
 int i;
-for(i = 0; i < 10; i++)
+for (i = 0; i < 8; i++)
 {
 _putchar(c[i]);
 }
