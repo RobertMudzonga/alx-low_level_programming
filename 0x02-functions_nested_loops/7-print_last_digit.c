@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
- *print_last_digit - print last digit of an integer
- *@n: integer argument
- *Return: value of the last digit
- */
-
+* print_last_digit - prints last digit of integer input
+* @n: integer to modify
+*
+* Return: l
+*/
 int print_last_digit(int n)
 {
-int a;
-
-if (n < 0)
-n = -n;
-
-a = n % 10;
-
-if (a < 0)
-a = -a;
-
-_putchar(a + 0);
-
-return (0);
+int l, p;
+l = n % 10;
+if (l <  0)
+l = -l;
+p = '0' + l;
+_putchar(p);
+return (l);
 }
