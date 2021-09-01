@@ -1,13 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-/**
- *putchar -writes the character c to stdout
- *@c: THecharacter to print
- *
- *Return: 1 sucess
- */
-
 int _putchar(char c);
 
 /**
@@ -44,6 +34,3 @@ int add(int a, int b);
 int add print_to_98(int n);
 
 void print_times_table(int n);
-
-
-#endif
