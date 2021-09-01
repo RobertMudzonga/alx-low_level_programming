@@ -8,7 +8,8 @@ void print_alphabet(void);
 /**
  *print_alphabet_x10- print alphabet ten times
  */
-void print_aplhabet_x10(void);
+
+void print_alphabet_x10(void);
 
 /**
  *print islower- checks lowercas
