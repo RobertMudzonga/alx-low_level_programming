@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- *main- prints lowercase, followed by new line
- *Return: Always 0 sucess
- */
+* main - Prints _putchar as a message using putchar.
+*
+* Return: Always 0 (Success)
+*/
 
-void print_alphabet(void)
+int main(void)
 {
-char ch;
 
-ch = 'a';
-
-while (ch <= 'z')
+char *c = "_putchar";
+int i;
+for (i = 0; i < 8; i++)
 {
-_putchar(ch);
-ch++;
+_putchar(c[i]);
 }
 _putchar('\n');
+return (0);
 }
