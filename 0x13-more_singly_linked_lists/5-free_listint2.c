@@ -11,7 +11,7 @@ listint_t *temp;
 if (head == NULL)
 return;
 
-while(*head)
+while (*head)
 {
 temp = (*head)->next;
 free(*head);
