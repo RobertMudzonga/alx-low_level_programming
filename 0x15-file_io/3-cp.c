@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - copies the content of a file to another file
  * @argc: number of arguments passed to the program
@@ -11,7 +10,6 @@ int main(int argc, char *argv[])
 {
 int fd_r, fd_w, r, a, b;
 char buf[BUFSIZ];
-
 if (argc != 3)
 {
 dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
@@ -33,7 +31,6 @@ close(fd_r);
 exit(99);
 }
 }
-
 if (r < 0)
 {
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
@@ -41,7 +38,6 @@ exit(98);
 }
 a = close(fd_r);
 b = close(fd_w);
-
 if (a < 0 || b < 0)
 {
 if (a < 0)
